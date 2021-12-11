@@ -133,7 +133,8 @@ document.addEventListener('keypress', function (e) {
             successCard.removeClass('bg-dark')
             successCard.addClass('bg-success')
             progressBarLength += progress;
-            progressBar.css(`width, ${progressBarLength}%`);
+            console.log(progressBarLength)
+            progressBar.css(`width`, `${progressBarLength}%`);
 
             setTimeout(() => {
                 changeQuestion()

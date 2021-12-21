@@ -1,6 +1,6 @@
 # Question-Game
-- HTML
-- CSS
-- JavaScript
+
+- Bootstrap
+- jQuery
 
 https://thehasanovv.github.io/Question-Game/
